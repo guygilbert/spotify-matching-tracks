@@ -1,6 +1,6 @@
 import spotipy
 
-birdy_uri = 'spotify:artist:7Eu1txygG6nJttLHbZdQOh'
+fourtet_uri = 'spotify:artist:7Eu1txygG6nJttLHbZdQOh'
 spotify = spotipy.Spotify()
 
 results = spotify.artist_albums(birdy_uri, album_type='album')
