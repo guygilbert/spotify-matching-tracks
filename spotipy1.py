@@ -1,5 +1,11 @@
 import spotipy
 
+#Here is the flow of the app: 
+#1. Find track playing now
+#2. Find tracks with similar genre, key, BPM
+#3. Find tracks that match some of the criteria
+#4. Offer choice and queue the chosen track
+
 fourtet_uri = 'spotify:artist:7Eu1txygG6nJttLHbZdQOh'
 spotify = spotipy.Spotify()
 
